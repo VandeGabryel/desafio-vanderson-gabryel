@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem.png" href="./src/caixa.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Caixa da Lanchonete DB</title>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <h1>Caixa da Lanchonete DB</h1>
+            <div class="lista">
+                <ul class="itens"
+                    <li><button id="cafe" onclick="soma('3.00')">Café</button></li>
+                    <li><button id="chantily" onclick="soma('1.50')">Chantily (extra do Café)</button></li>
+                    <li><button id="suco" onclick="insert('6.20')">Suco Natural</button></li>
+                    <li><button id="sanduiche" onclick="insert('6.50')">Sanduíche</button></li>
+                    <li><button id="queijo" onclick="insert('2.00')">Queijo (extra do Sanduíche)</button></li>
+                    <li><button id="salgado" onclick="insert('7.25')">Salgado</button></li>
+                    <li><button id="combo1" onclick="insert('9.50')">1 Suco e 1 Sanduíche</button></li>
+                    <li><button id="combo2" onclick="insert('7.50')">1 Café e 1 Sanduíche</button></li>
+                </ul>
+            </div>
+            <p id="resultado">O valor é: R$</p>
+    </div>
+</div>
+
+    <script src="./src/caixa-da-lanchonete.js"></script>
+</body>
+</html>
